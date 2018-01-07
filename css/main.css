@@ -527,7 +527,7 @@ header.nav.hide-menu {
  ----------------------------------- */
 
 #home {
-    background: url('../../images/home-bg-min.jpg') no-repeat fixed center center / cover;
+    background: url('../../images/home-bg-min.png') no-repeat fixed center center / cover;
 }
 
 #home .sec-overlay {
@@ -951,6 +951,12 @@ header.nav.hide-menu {
 
 .post-title {
     font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.post-title-card{
+    font-size: 2em;
     color: #fff;
     font-weight: bold;
     text-align: center;
@@ -959,6 +965,12 @@ header.nav.hide-menu {
     color: #444 !important;
 }
 .post-content {
+    line-height: 25px;
+    font-size: 1em;
+    color: #777777;
+}
+
+.post-content-card {
     line-height: 25px;
     font-size: 1em;
     color: #fff;
